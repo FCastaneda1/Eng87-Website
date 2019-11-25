@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Play|Roboto+Condensed:300|Source+Sans+Pro:300,700|Ubuntu|Varela+Round&display=swap');
+body {
+    margin: 0;
+}
+
+#full-image {
+    width: 100%;
+}
+
+span {
+    font-weight: normal;
+}
+.Center{
+    text-align: center;
+}
+
+.About {
+    background-color: #ffffff;
+    height: 150px;
+    margin: 0;
+}
+
+.About h1 {
+    color: #9c7b1f;
+    text-align: center;
+    padding-top: 55px;
+    margin: 0;
+    font-size: 45px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(70,70,70,0.75);
+    z-index: 10;
+}
+
+.topimage{
+    line-height: 0;
+    display:block;
+}
+
+#title {
+    float: left;
+    padding-top: 10px;
+    padding-left: 100px;
+    height: 60px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-right: 100px;
+}
+
+.menu li{
+    float: right;
+}
+
+.menu li a {
+    display: block;
+    color: #f0f0f0;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 17px;
+    padding: 30px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #599ba8;
+}
+
+.About_Pt2 {
+    background-color: #005092;
+    padding: 20px;
+}
+
+.About_Pt2 h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+.hidden-table {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #dbdbdb;
+    font-size: 30px;
+    padding-left: 275px;
+    padding-right: 325px;
+}
+
+.About_Pt2 .hidden-table th {
+    text-align:left;
+}
+
+.About_Pt2 #hidden-table-title {
+    font-family: 'Ubuntu', sans-serif;
+    color: #c08d2d;
+}
+
+#wow_factor {
+    font-size: 35px;
+    color: #bdab06;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.About_Pt3 {
+    background-color: #0e0e0e;
+    height: 150px;
+    margin:0;
+}
+.About_Pt4 {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.About_Pt4 h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: #1b1b1b;
+}
+
+.About_Pt3 h1 {
+    color: #e0e0e0;
+    text-align: center;
+    padding-top: 55px;
+    margin: 0;
+    font-size: 45px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*Designates Space for Research Page*/
+.ResearchBlock{
+    height: 1175px;
+    background-color:white;
+    text-align: center;
+    margin: 0;
+
+}
+/*Research Page Header*/
+.ResearchHeader{
+    background-color:#1659b7;
+    font-size: 45px;
+    font-family: 'Varela Round', sans-serif;
+    margin:0;
+    padding-top:45px;
+    padding-bottom:40px;
+    color:#f0edea;
+}
+/*Creates Border Around Text for Research Page*/
+.ResBorder1{
+    background-color: #7ca1cb;
+    border: 4px solid;
+    border-radius: 5px;
+    border-color: #a5b4be;
+    width: 700px;
+    padding-top:5px;
+    padding-left:15px;
+    padding-right:15px;
+    margin: 10px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*Creates Border Around Text for Research Page*/
+.ResBorder2{
+    background-color: #7ca1cb;
+    border: 4px solid;
+    border-radius: 5px;
+    border-color: #a5b4be;
+    width: 700px;
+    padding-top:5px;
+    padding-left:15px;
+    padding-right:15px;
+    margin: 10px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*Creates Border Around Text for Research Page*/
+.ResBorder3{
+    background-color: #7ca1cb;
+    border: 4px solid;
+    border-radius: 5px;
+    border-color: #a5b4be;
+    width: 700px;
+    padding-top:5px;
+    padding-left:15px;
+    padding-right:15px;
+    margin: 10px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*Creates Border Around Text for Research Page*/
+.ResBorder4{
+    background-color: #7ca1cb;
+    border: 4px solid;
+    border-radius: 5px;
+    border-color: #a5b4be;
+    width: 700px;
+    padding-top:5px;
+    padding-left:15px;
+    padding-right:15px;
+    margin: 10px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.Careers {
+    background-color: #161616;
+    height: 150px;
+    margin: 0;
+}
+
+.Careers h1 {
+    color: #e6e6e6;
+    text-align: center;
+    padding-top: 55px;
+    margin: 0;
+    font-size: 45px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.Careers{
+    text-align: center;
+}
+
+.Careers_body {
+    background-color: #e6e6e6;
+    height: 500px;
+}
+
+.Careers1{
+    width: 50%; height: 200px; float: left;
+    background-color: #dce2e6;
+    border: 4px solid;
+    border-radius: 5px;
+    border-color: #a5b4be;
+    width: 700px;
+    padding-top:5px;
+    padding-left:15px;
+    padding-right:15px;
+    margin: 10px;
+    text-align: left;
+}
+.Careers2{
+    width: 50%; height: 200px; float: right;
+    background-color: #dce2e6;
+    border: 4px solid;
+    border-radius: 5px;
+    border-color: #a5b4be;
+    width: 700px;
+    padding-top:5px;
+    padding-left:15px;
+    padding-right:15px;
+    margin: 10px;
+    text-align: left;
+}
+.Careers3{
+    width: 50%; height: 200px; float: left;
+    background-color: #dce2e6;
+    border: 4px solid;
+    border-radius: 5px;
+    border-color: #a5b4be;
+    width: 700px;
+    padding-top:5px;
+    padding-left:15px;
+    padding-right:15px;
+    margin: 10px;
+    text-align: left;
+}
+.Careers4{
+    width: 50%; height:200px; float: right;
+    background-color: #dce2e6;
+    border: 4px solid;
+    border-radius: 5px;
+    border-color: #a5b4be;
+    width: 700px;
+    padding-top:5px;
+    padding-left:15px;
+    padding-right:15px;
+    margin: 10px;
+    text-align: left;
+}
+/* --------------------------------------------------------Skills page-------------------------------------------------------------*/
+.Skills{
+    background-color:#1659b7;
+    font-size: 45px;
+    font-family: 'Varela Round', sans-serif;
+    margin:0;
+    padding-top:45px;
+    padding-bottom:40px;
+    color:#f0edea;
+}
+
+.Skills-pt2 {
+    background-color: #cfcfcf;
+    padding: 20px;
+}
+
+.Skills-pt2 .skill-table {
+    width: 100%;
+}
+
+.Skills-pt2 .skill-table th {
+    font-family: 'Ubuntu', sans-serif;
+    color: #1b1b1b;
+    padding: 8px;
+    padding-right: 200px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Skills-pt2 .skill-table #skill-title {
+    padding-bottom: 8px;
+    color: #947902;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.CorpsBlock, .CorpsBlock2{
+    height: 700px;
+
+    background-color: #FFFFFF;;
+
+}
+.CorpsBlock h1, .CorpsBlock2 h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Varela Round' , sans-serif;
+}
+.CorpsBlock ul, .CorpsBlock2 ul{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.CorpsBlock h2{
+    text-align: center;
+    font-size: 50px;
+    border-top: 50px solid #FFFFFF;
+    font-family: 'Varela Round', sans-serif;
+}
+.References{
+    height: 500px;
+    width: 1200px;
+    overflow-x: hidden;    
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-img, .flip-img2, .flip-img3, .flip-img4{
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    border: 60px solid #FFFFFF;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  .flip-img, .flip-img3{
+      float: left;
+  }
+  .flip-img2, .flip-img4{
+      float:right;
+      margin-left: 10
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-img-inner, .flip-img-inner2, .flip-img-inner3, .flip-img-inner4{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-img:hover .flip-img-inner, .flip-img2:hover .flip-img-inner2, .flip-img3:hover .flip-img-inner3, .flip-img4:hover .flip-img-inner4{ 
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-img-front, .flip-img-back, .flip-img-front2, .flip-img-back2,  .flip-img-front3, .flip-img-back3, .flip-img-front4, .flip-img-back4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-img-front, .flip-img-front2, .flip-img-front3, .flip-img-front4 {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-img-back, .flip-img-back2, .flip-img-back3, .flip-img-back4 {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+/*---------------------------------------------------------Meet Team Part---------------------------------------------*/
+  .MeetTeam {
+    background-color: #1659b7;
+    height: 200px;
+    margin: 0;
+}
+
+.MeetTeam h1 {
+    color: #e4e4e4;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+    font-size: 45px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+  .The-Team {
+      background-color: #f0f0f0;
+      height: 1150px;
+      margin: 0;
+      padding: 20px;
+  }
+
+
+  .The-Team .Freddy #profile{
+      border-radius: 50%;
+      float: left;
+      margin-left: 100px;
+      margin-top: 10px;
+      width: 200px;
+      height: 200px;
+  }
+
+  .The-Team .Freddy #bio {
+      float: left;
+      width: 900px;
+      margin-left: 150px;
+      margin-right: 50px;
+      margin-top: 10px;
+  }
+
+  .The-Team .Freddy #bio h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .The-Team .Freddy #bio h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #757575;
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .The-Team .Freddy #bio p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+  }
+
+
+
+  .The-Team .Fabrizio #profile{
+    border-radius: 50%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 200px;
+    height: 200px;
+}
+
+.The-Team .Fabrizio #bio {
+    float: left;
+    width: 900px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+
+.The-Team .Fabrizio #bio h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.The-Team .Fabrizio #bio h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #757575;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.The-Team .Fabrizio #bio p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+.The-Team .Luis #profile{
+    border-radius: 50%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+.The-Team .Luis #bio {
+    float: left;
+    width: 900px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.The-Team .Luis #bio h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.The-Team .Luis #bio h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #757575;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.The-Team .Luis #bio p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+.The-Team .Ruben #profile{
+    border-radius: 50%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+.The-Team .Ruben #bio {
+    float: left;
+    width: 900px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.The-Team .Ruben #bio h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.The-Team .Ruben #bio h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #757575;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.The-Team .Ruben #bio p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+  
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+                    /*CSS For Professional Organization Page Header*/
+.ProfOrgHeader{
+    font-size: 45px;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #1659b7;
+    margin: 0;
+    padding-top:45px;
+    padding-bottom:45px;
+}
+.orgHeader{
+    background-color:#1659b7;
+    font-size: 45px;
+    font-family: 'Varela Round', sans-serif;
+    margin:0;
+    padding-top:95px;
+    padding-bottom:40px;
+    color:#f0edea;
+}
+                    /*CSS For Professional Organization Page Font Size in Text Boxes*/
+.ProfOrgs{
+    font-size:16px;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------Background Image setup ---------------------------------------------*/
+.bgimg-main {
+    background-image: url(Main_Image.jpg);
+    min-height: 100%;
+    height: 900px;
+}
+
+
+.bgimg-1 {
+    background-image: url(bgimg-1.jpg);
+    height: 500px;
+}
+
+.bgimg-2 {
+    background-image: url(bgimg-2.jpg);
+    min-height: 100%;
+    height: 500px;
+}
+
+.bgimg-3 {
+    background-image: url(bgimg-3.jpg);
+    min-height: 100%;
+    height: 500px;
+
+}
+
+.bgimg-4 {
+    background-image: url(bgimg-4.jpg);
+    min-height: 100%;
+    height: 500px;
+}
+
+.bgimg-5 {
+    background-image: url(bgimg-5.jpg);
+    min-height: 100%;
+    height: 500px;
+}
+
+.bgimg-6 {
+    background-image: url(bgimg-6.jpg);
+    min-height: 100%;
+    height: 500px;
+}
+
+.bgimg-main, .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
+    position: relative;
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*---------------------------------------------------------Background Image setup END ---------------------------------------------*/
+
+/*---------------------------------------------------------Interview Section setup ---------------------------------------------*/
+.InterviewBlock{
+    height: 1000px;
+    background-color: #005092;
+    padding-right: 75px;
+}
+.InterviewBlock h1,.InterviewBlockTitle h1{
+    font-size: 50px;
+    font-family: 'Varela Round' , sans-serif;
+    text-align: Center;
+    color: rgb(187, 142, 28);
+}
+.InterviewBlockTitle h1{
+    padding-top: 20px;
+}
+.InterviewBlockTitle{
+    background-color:#FFFFFF;
+    height: 120px;
+}
+.InterviewBlock ul{
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style-type: none;
+    color: #f1f1f1;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.InterviewBlock h2{
+    font-size: 35px;
+    color: #DAA520;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.QuestionAndAnswerBlock .Abigail #profile{
+    border-radius: 50%;
+    float: left;
+    margin-left: 500px;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.QuestionAndAnswerBlock .Abigail #bio h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #cfbb00;
+  text-align: left;
+  padding-left: 800px;
+  padding-top: 50px;
+}
+
+.QuestionAndAnswerBlock .Abigail #bio h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #c0a300;
+  margin-top: 0;
+  font-size: 22px;
+  padding-left: 800px;
+  padding-bottom: 80px;
+}
+/*---------------------------------------------------------Interview Section setup END ---------------------------------------------*/

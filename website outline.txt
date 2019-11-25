@@ -1,0 +1,30 @@
+Website Outline
+
+inspired by thankgoditsmonday.co/arbiterftf
+
+Header begin
+	sticky and transparent
+	logo to the left (logo of "UCLA Computer Science")
+	each talking point as a link on the right (words change color on hover and move to a specific part of the page on click)
+		Talking Points:
+			- About (Includes "About Engineering" and "Your Field of Interest")
+			- Research (Includes "Cutting-edge research in your field at UCLA")
+			- Careers (Includes "Career Options")
+			- Corporations (Includes "Corporations")
+			- Skills (Includes "Necessary Skills")
+			- The Team (Includes "Team pictures" and "Why Engineering" and "Contact us")
+			- References (Includes "References" in APA of all sources, even images/videos linked)
+Header end
+
+Body begin
+	use "parallax" scrolling effect
+	
+	The Team begin
+		have our individual pics in circles with our "Why engineering" shpeel on our side (pics alternate from left-align to right-align)
+		place "contact us" under each bio with LinkedIn and Instagram (use icons as links to social media)
+	The Team end
+Body end
+
+Footer begin
+	solid bar (not transparent) fixed with a "Thank you for visiting!" message
+Footer end
